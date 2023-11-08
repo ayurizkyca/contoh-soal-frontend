@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100&display=swap');
+
+*{
+    background-color: beige;
+    font-family: 'Dancing Script', 'Poppins';
+}
+
+body {
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  align-items: center;
+  min-height:100vh;
+}
+
+.belahketupat{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+    margin-bottom: 50px;
+}
+
+.hijau{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+
+.hijaumuda{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(118, 221, 118);
+}
+
+p{
+    font-size: larger;
+   text-align: center;
+}
